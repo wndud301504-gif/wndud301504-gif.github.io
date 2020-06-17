@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        padding: 0;
+        margin: 0;
+
+        }
+       
+        .clear{
+            clear: both;
+        }
+        #page{
+            width:1300px;
+            margin: auto;
+            border: 0px solid #bbbbbb;
+        }
+        header{
+            width: 1300px;
+            height: 100px;
+            margin-top: 10px;
+            border: 1px solid #bbbbbb;
+        }
+        #logo{
+        float:left;
+        margin-top: 10px;
+        }
+        #serch{
+            float:left;
+            margin-top: 4px;
+            margin-left: 50px;
+        }
+        #top{
+            float: right;
+            margin: 30px 20px 0 0;
+        }
+        nav{
+        width:  1300px;
+        height: 70px;
+        margin-top: 10px;
+        border:1px solid #bbbbbb;
+        top : 100px
+        }
+        nav li {
+            display: inline-block;
+            margin: 20px 30px;
+            list-style-type: none;
+        }
+        nav ul li:hover{
+        color: rgb(25, 139, 101);
+        }
+        nav ul a:hover{
+            color: rgb(25, 139, 101);
+        }
+        nav ul a {
+            color:#000000;
+        }
+        aside{
+            float: left;
+            position: relative;
+            z-index: 1;
+            top:200px;
+        }
+        #sec1{
+            float:left;
+            
+            width: 70%;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            top:200px;
+        }
+        header,nav{
+            position: fixed;
+            z-index: 2;
+            background-color: white;
+        }
+        section ul li{
+            list-style-image: url("./img/dot.PNG");
+            margin: 40px;
+        }
+        .listsetting{
+            margin-top: 10px; font-size: 16px; color:#000000
+        }
+        footer{
+        width:1500px;
+        height: 100px;
+        margin:10px 0 10px 0;
+        position: relative;
+        top :200px;
+        
+    }
+    </style>
+</head>
+<body id="page">
+    <img src="./img/bong.PNG" style="position: fixed; top:300px; right:0; z-index: 3; ">
+    <header>
+        <div id = "logo">
+        <a href="index.html"><img src="./img/logo.PNG"></a>
+        </div>
+        <div id ="serch">
+            <img src="./img/serch.PNG">
+        </div>
+        <div id = "top">
+            <a href="https://google.com" target="_self">로그인</a> | <a href="chart.html" target="_self">회원가입</a> | <a href="./Hello/hello.html" target="_self">마이페이지</a> | 고객센터
+        </div>
+    </header>
+    <div class="clear"></div>
+    <nav>
+        <ul>
+            <a href="pandemic.html" style="margin-left: 30px;  text-decoration:none; "> 감염병 </a>
+            <li> 건강정책 </li>
+            <li> 정책정보 </li>
+            <li> 연구개발 </li>
+            <li> 알림.자료 </li>
+            <li> 간행물.통계 </li>
+            <li> 민원.정보공개 </li>
+            <li> 기관소개 </li>
+            <li> 사업별홈페이지 </li>
+    
+        </ul>
+    </nav>    
+    <aside>
+        <img src="./img/aside.PNG" width = 300px;>
+    </aside>
+
+    <section id ="sec1">
+        <h1 style="margin-top:30px;margin-bottom: 20px;">감염병정보</h1>
+
+        <hr witdh ="500px" size="1" color="black">
+        <p style="margin:15px">작성일2019-05-15 | 최종수정일2020-06-12 | 담당부서의료감염관리과 | 연락처043-719-7124 </p>
+        <hr witdh ="500px" size="0.1px" color="gray">
+        <p style="margin-top: 40px;"></p>
+        <img src="./img/secpan1.PNG" width="900px" >
+        <ul>
+            <li style="font-size: 1.5em; color:#254bc7">감염병포털 소개
+                <p class="listsetting">법정감염병(전수/표본)의 현황(통계) 및 올바른 정보를 국민들이 쉽게 접근할 수 있는 <a href="">감염병 정보 포털사이트</a></p>
+            </li>
+            <li style="font-size: 1.5em; color:#254bc7">통계
+                <p class="listsetting">· <a href="">전수감시 감염병</a>: 전수감시 감염병에 대한 주요통계, 질병별 통계, 지역별 통계, 성별/연령별 통계에 대한 통계</p>
+                <p class="listsetting">· <a href="">표본감시 감염병</a>: 표본감시 감염병에 대한 통계</p>
+                <p class="listsetting">· <a href="">비브리오 감시</a>: 해수에서 측정한 비브리오 통계</p>
+            </li>
+            <li style="font-size: 1.5em; color:#254bc7">지침
+                <p class="listsetting">· 법정감염병의 증상, 진단 및 치료, 신고기준, 예방과 같은 정보</p>
+                <p class="listsetting">· 감염병 관리, 각 기관에서 해야하는 수행체계, 감시체계, 실험실 검사, 역학조사, 환자관리/접촉자 관리, 방역관리에 대한 정보</p>
+            </li>
+            <li style="font-size: 1.5em; color:#254bc7">발간자료
+                <p class="listsetting">· <a href="">감시연보</a>: 감염병 신고·보고된 법정감염병 현황을 분석 정리한 자료</p>
+                <p class="listsetting">· <a href="">역학조사연보</a>: 시·군·구 역학조사반의 신고 접수된 수인성·식품매개 감염병 집단발생에 분석 정리한 자료</p>
+                <p class="listsetting">· <a href="">주간소식지</a>: 표본감시 감염병 주간 정보</p>
+                <p class="listsetting">· <a href="">실험실 소식지 정보</a>: 병원체 및 매개체 주간 감시 정보</p>
+            </li>
+        </ul>
+    </section>
+    <div class="clear"></div>
+    <footer style="position: absolute; left : 20px; top:1400px">
+        <hr style="margin: 0px;" witdh ="500px" size="0.1px" color="gray">
+        <img src="./img/bar.PNG">
+        <img src="./img/bar2.PNG">
+
+    </footer>
+    
+</body>
+</html>
